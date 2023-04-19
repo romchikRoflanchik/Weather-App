@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(124, 150, 171);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Oswald';
+ 
+
+}
+
+.contain {
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 15px;
+}
+
+.app_body {
+    width: 100%;
+    border-radius: 20px;
+    background-image:linear-gradient(to bottom, rgb(87, 108, 188),rgb(11, 36, 71) );
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+}
+
+.serch_box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 17px;
+}
+
+.form{
+    width: 100%;
+}
+.text_area {
+    width: 90%;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 10px;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 20px;
+    padding: 10px;
+    outline: none;
+}
+
+.serch_btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.serch_btn img {
+    height: 20px;
+    width: 20px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temp_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 17px;
+    
+}
+
+.weather_img{
+    width: 150px;
+    height: 150px;
+}
+
+.weather_img img{
+    width: 150px;
+    height: 150px;
+}
+
+.temp{
+    font-weight: 900;
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 1px 1px  black;
+}
+
+.city{
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+    text-shadow: 1px 1px 1px  black;
+}
+
+
+.item{
+    display: flex;
+}
+@media screen and (max-width :405px ){
+    .item{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .item_img{
+        margin-bottom: 5px;
+    }
+    .other_info{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.item_img{
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+}
+.item_img img{
+    width: 60px;
+    height: 60px;
+}
+
+.item_text{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.top , .right_top{
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 30px;
+    color: white;
+    text-shadow: 1px 1px 1px  black;
+}
+
+.bot{
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px 1px  black;
+}
+
+.other_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.info_box{
+    display: none;
+}
