@@ -113,7 +113,7 @@ body {
 .item{
     display: flex;
 }
-@media screen and (max-width :405px ){
+@media screen and (max-width : 440px ){
     .item{
         flex-direction: column;
         align-items: center;
